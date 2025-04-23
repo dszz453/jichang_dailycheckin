@@ -38,9 +38,5 @@ jobs:
           SCKEY: ${{ secrets.SCKEY }}
           EMAIL: ${{ vars.EMAIL }}
           PASSWD: ${{ vars.PASSWD }}
-          EMAIL: ${{ 494099430@qq.com }}
-          PASSWD: ${{ Zyp12345+ }}
-          EMAIL: ${{ zhangyanpu@126.com }}
-          PASSWD: ${{ Zyp12345+ }}
         run: |
           python3 ./main.py
